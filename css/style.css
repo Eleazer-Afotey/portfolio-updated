@@ -101,3 +101,26 @@ p.my-job {
   border-color: #0275d8;
   color: #0275d8;
 }
+
+/* services section */
+.single-service-icon i {
+  color: var(--primary);
+  font-size: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.single-service-icon {
+  min-width: 72px;
+  min-height: 72px;
+  background-color: #3c3c3c;
+  border-radius: 5px;
+}
+
+.single-service p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+}
