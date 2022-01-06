@@ -39,6 +39,19 @@ p {
 }
 
 /* basic styling */
+.bg-dark-1 {
+  background: #191919;
+}
+.bg-dark-2 {
+  background: #101010;
+}
+
+.section-title {
+  font-size: 62px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
 
 /* Home section */
 .site-title {
@@ -73,4 +86,18 @@ p.my-job {
     top: 10px;
     opacity: 1;
   }
-} ;
+}
+
+/* about section */
+.nav-tabs .nav-link {
+  color: white;
+}
+.nav-tabs .nav-link:hover {
+  border-color: #0275d8;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #3e3e3e;
+  border-color: #0275d8;
+  color: #0275d8;
+}

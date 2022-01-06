@@ -15,3 +15,13 @@ typewriter
   .typeString("Mobile App Developer")
   .pauseFor(2000)
   .start();
+
+let tablist = document.querySelectorAll(".nav-tabs .nav-item a");
+
+tablist.forEach(function (e) {
+  let trigger = new bootstrap.Tab(e);
+  e.addEventListener("click", function (e) {
+    e.preventDefault();
+    trigger.show();
+  });
+});
