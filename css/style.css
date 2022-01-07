@@ -124,3 +124,21 @@ p.my-job {
   line-height: 25px;
   font-weight: 500;
 }
+
+.grid-item {
+  margin-bottom: 15px;
+}
+.grid-content img {
+  max-width: 100%;
+  padding-bottom: 5px;
+}
+
+.portfolio-filter button {
+  border: 0;
+  background-color: transparent;
+  color: white;
+}
+
+.portfolio-filter button.clicked {
+  color: var(--primary);
+}
