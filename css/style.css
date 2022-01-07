@@ -142,3 +142,8 @@ p.my-job {
 .portfolio-filter button.clicked {
   color: var(--primary);
 }
+
+/* Contact form */
+#submit-button:hover {
+  background: transparent;
+}
