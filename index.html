@@ -314,6 +314,57 @@
 
     <!-- ----------------------PORTFOLIO  SECTION ENDS---------- -->
 
+    <!-- CONTACT ME SECTION BEGINS --------------------->
+    <section class="bg-dark-1 py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="py-5 text-center">
+              <h2 class="section-title">Contact Me</h2>
+              <p>
+                Send me a message today! I'm looking forward to hearing from you
+                and working with you as well
+              </p>
+            </div>
+            <form action="contact_php" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control bg-transparent border-secondary small text-white"
+                  placeholder="Your Name..."
+                  required
+                  name="visitors_name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control bg-transparent border-secondary small text-white"
+                  placeholder="Your Email..."
+                  required
+                  name="visitors_email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  name="visitors_message"
+                  id=""
+                  rows="9"
+                  class="form-control bg-transparent border-secondary small text-white"
+                  placeholder="Message..."
+                ></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit" id="submit-button">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT ME SECTION ENDS ------------------------>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
