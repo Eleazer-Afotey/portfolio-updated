@@ -74,3 +74,18 @@ btnElement.forEach(function (el, key) {
     });
   });
 });
+
+// Scroll to top
+
+window.addEventListener("scroll", function () {
+  var scrolled = window.pageYOffset;
+  var topbutton = document.querySelector(".scroll-to-top");
+
+  if (scrolled > 1000) {
+    topbutton.classList.add("d-inline-block");
+  }
+
+  if (scrolled < 1000) {
+    topbutton.classList.remove("d-inline-block");
+  }
+});
