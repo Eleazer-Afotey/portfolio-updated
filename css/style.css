@@ -147,3 +147,14 @@ p.my-job {
 #submit-button:hover {
   background: transparent;
 }
+
+/* footer */
+.custom-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+  max-width: 1820px;
+}
+.footer .nav-social a {
+  color: var(--primary);
+}
