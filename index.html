@@ -12,7 +12,69 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body id="top" data-bs-spy="scroll" data-bs-target="#navbar-scroll">
+    <!-- -----------NAVIGATION BAR STARTS --------------------->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      id="navbar-scroll"
+    >
+      <div class="custom-wrapper">
+        <!-- logo -->
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo-2.png" alt="logo" />
+        </a>
+        <!-- Responsive button -->
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navBar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- nav links -->
+        <div class="collapse navbar-collapse" id="navBar">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav-social text-center pb-3 pb-lg-0">
+            <a href="" class="me-2"
+              ><i
+                href="https://www.linkedin.com/in/eleazer-allnice-458259155/"
+                class="fab fa-linkedin-in"
+              ></i
+            ></a>
+            <a href="" class="me-2"
+              ><i href="https://twitter.com/ElyHuios" class="fab fa-twitter"></i
+            ></a>
+            <a href="" class="me-2"
+              ><i
+                href="https://www.instagram.com/eli__a.a/"
+                class="fab fa-instagram"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- --------------NAVIGATION BAR ENDS------------------ -->
+
     <!---------- SLIDER STARTS---------------------------- -->
     <header
       class="header position-relative"
@@ -152,7 +214,10 @@
       <div class="container pt-5">
         <div class="section-title-center text-center pb-5">
           <h2 class="section-title">What Do I Do?</h2>
-          <p>I build websites, mobile applications and desktop applications</p>
+          <p>
+            I started my career as a professional developer in 2020. These are
+            some of the things I do
+          </p>
         </div>
         <div class="row pt-5">
           <div class="col-lg-6 mb-5">
@@ -163,10 +228,11 @@
                 <i class="fa fa-paint-brush"></i>
               </div>
               <div class="ms-4">
-                <h5>PSD to HTML</h5>
+                <h5>WEB DEVELOPMENT</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus, porro aliquid in cupiditate reprehenderit veritatis!
+                  I build responsive web designs for all types of businesses. I
+                  first make designs and ensure that my clients are satisfied
+                  before building.
                 </p>
               </div>
             </div>
@@ -180,10 +246,11 @@
                 <i class="fa fa-palette"></i>
               </div>
               <div class="ms-4">
-                <h5>PSD to HTML</h5>
+                <h5>MOBILE APP DEVELOPMENT</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus, porro aliquid in cupiditate reprehenderit veritatis!
+                  Using some of the latest technologies, I build mobile
+                  applications for android and iOS devices. I ensure that
+                  functionality, speed and good aethetics in my projects.
                 </p>
               </div>
             </div>
@@ -197,10 +264,11 @@
                 <i class="fa fa-chart-area"></i>
               </div>
               <div class="ms-4">
-                <h5>PSD to HTML</h5>
+                <h5>UI/UX Design</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus, porro aliquid in cupiditate reprehenderit veritatis!
+                  Do you want to bring your imaginations to light? I can help
+                  you do that. I have experience building beautiful and
+                  appealing front-end deisgns.
                 </p>
               </div>
             </div>
@@ -211,13 +279,15 @@
               <div
                 class="single-service-icon align-self-center position-relative"
               >
-                <i class="fa fa-chart-area"></i>
+                <i class="fas fa-anchor"></i>
               </div>
               <div class="ms-4">
-                <h5>PSD to HTML</h5>
+                <h5>SOFTWARE DEVELOPMENT</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minus, porro aliquid in cupiditate reprehenderit veritatis!
+                  I build secure software that helps you effectively structure
+                  your business processes with growth and production in focus.
+                  I'll work with you to create solutions that would ramp up your
+                  productivity.
                 </p>
               </div>
             </div>
@@ -372,13 +442,23 @@
       >
         <div><img src="images/eli-logo.png" alt="" class="pb-3 pb-lg-0" /></div>
 
-        <!-- <div class="nav-social text-center pb-3 pb-lg-0">
+        <div class="nav-social text-center pb-3 pb-lg-0">
           <a href="" class="me-2"
-            ><i href="#" class="fab fa-linkedin-in"></i
+            ><i
+              href="https://www.linkedin.com/in/eleazer-allnice-458259155/"
+              class="fab fa-linkedin-in"
+            ></i
           ></a>
-          <a href="" class="me-2"><i href="#" class="fab fa-twitter"></i></a>
-          <a href="" class="me-2"><i href="#" class="fab fa-instagram"></i></a>
-        </div> -->
+          <a href="" class="me-2"
+            ><i href="https://twitter.com/ElyHuios" class="fab fa-twitter"></i
+          ></a>
+          <a href="" class="me-2"
+            ><i
+              href="https://www.instagram.com/eli__a.a/"
+              class="fab fa-instagram"
+            ></i
+          ></a>
+        </div>
         <p class="samll fw-bold mb-0 pb-3 pb-lg-0">
           All Rights Reserved |
           <a href="#" class="text-primary text-decoration-none me-5">Eleazer</a>
@@ -387,6 +467,12 @@
     </footer>
 
     <!-- --------FOOTER ENDS----------------------------- -->
+
+    <!-- --------SCROLL SECTION STARTS ------------------ -->
+    <div class="scroll-to-top">
+      <a href="#top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    <!-------------SCROLL SECTION ENDS ------------------->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
